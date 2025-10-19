@@ -1,4 +1,4 @@
-'''import streamlit as st
+import streamlit as st
 import requests
 
 # Title
@@ -28,8 +28,9 @@ col3.metric("Humidity", "86%", "4%")
 
 st.write("---")
 st.caption("Built with Streamlit")
-'''
 
+
+'''
 import streamlit as st
 import pandas as pd
 import praw
@@ -78,3 +79,4 @@ if go:
         st.error(f"Error: {e}")
         st.code(str(e))
 
+'''
